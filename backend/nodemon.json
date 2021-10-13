@@ -1,0 +1,16 @@
+{
+  "watch": [
+    "bin/www",
+    "*/*.js"
+  ],
+  "ignore": [
+    "public",
+    "ecosystem.config.js",
+    "eslintrc.js"
+  ],
+  "env": {
+    "USE_HTTPS": false,
+    "debug": "react-chat",
+    "PORT": "18008"
+  }
+}
